@@ -25,4 +25,5 @@ find_library(
 
 target_link_libraries(
         testappliction
+        libnode
         ${log-lib})
